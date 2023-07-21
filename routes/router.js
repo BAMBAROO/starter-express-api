@@ -10,7 +10,7 @@ router.get("/token", refreshToken);
 router.post("/login", login);
 router.post("/register", register);
 router.delete("/logout", logout);
-router.get("/percobaan", (req, res) => {
+router.get("/", (req, res) => {
   res.send("halo kakak")
 })
 
