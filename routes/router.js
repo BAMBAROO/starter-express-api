@@ -11,7 +11,7 @@ router.post("/login", login);
 router.post("/register", register);
 router.delete("/logout", logout);
 router.get("/", (req, res) => {
-  res.send("halo kakak" + process.env.END_POINT)
+  res.send("halo adik" + process.env.END_POINT)
 })
 
 export default router;
