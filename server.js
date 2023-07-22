@@ -15,7 +15,7 @@ const io = new Server(server, {
     origin: process.env.END_POINT,
     methods: ["GET", "POST"],
     credentials: true,
-    transports: ["polling"],
+    transports: ["polling", "websocket"],
   },
 });
 
